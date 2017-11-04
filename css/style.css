@@ -1,0 +1,202 @@
+*{
+	box-sizing: border-box;
+}
+body{
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+		color:#777777;
+		font-size: 18px;
+		line-height: 34px;
+		background-image: url("../img/foggy_birds.png");
+}
+.container{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#head{
+	margin:0 40px;
+}
+
+
+#masthead{
+	background: #ffffff;
+	z-index: 10;
+	color: #ffffff;
+	overflow: auto;
+	border-bottom: 2px solid #e5d8dc;
+	/*position: fixed;*/
+	width: 100%;
+
+}
+#name{
+	width: 300px;
+	height: 90px;
+	background-color: #cdc1c5;
+	float:left;
+	text-align: center;
+	line-height: 90px;
+	font-weight: 700;
+	font-size: 30px;
+	margin:0;
+}
+/*NAV BAR*/
+
+#navbar{
+	float:right;
+	margin-top: 35px;
+}
+#navbar a{
+	color:	#8b8386;
+	text-decoration: none;
+	margin-left: 15px;
+	border-right: 1px solid #cdc1c5;
+	padding-right: 15px;
+}
+#navbar a:hover {
+	color: #cdc1c5;
+}
+
+#navbar a:last-child{
+	border-right: 0 none;
+
+}
+.icons{
+	width: 55px;
+	height: 55px;
+	margin: 10px 10px 0 0;
+	text-decoration: none;
+}
+.icons:hover{
+ 	
+
+}
+a:hover {
+	opacity:.5;
+text-decoration: none;
+}
+/*About*/
+
+#main-container{
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	padding: 25px 40px;
+	margin-bottom: 20px;
+}
+
+}
+#main-section{
+ 	background: #ffffff;
+ 	padding: 30px;
+ 	margin: 0 0 40px 0;
+ 	width: 100%;
+ 	max-width: 650px;
+ 	float: left;
+ 	border: 1px solid #dddddd;
+ }	
+#aboutMe{
+ }
+
+.profilePic{
+	width: 200px;
+	float:left;
+	margin: 10px 10px;
+}
+#aboutMe{
+	border-bottom: 3px solid #e5d8dc;
+	color: #cdc1c5;
+	font-size: 30px;
+	font-family: 'Helvetica Neue', Helvetica;
+	font-weight: 400;
+	padding-bottom: 30px;
+}
+
+
+/*aside bar*/
+
+
+
+#aside{
+	border: 1px solid #dddddd;
+	padding: 25px 20px;
+
+}
+.panel-title{
+	background: #ffffff;
+	border-bottom: 2px solid #e5d8dc;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	line-height: 22px;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	color: #cdc1c5;
+	font-size: 22px;
+	font-weight: 400;
+	
+}
+
+/*footer*/
+.footer{
+	background: #999093;
+	color: #ffffff;
+	padding: 30px 0;
+	clear: both;
+	border-top: 6px solid #e5d8dc;
+	text-align: center;
+	font-size: 15px;
+}
+	/*portfolio*/
+
+.projectImage{
+	width: 270px;
+	height: 270px;
+	float:left;
+	margin:10px 10px 0 0;
+}
+.projects{
+	overflow:auto;
+	position:relative;
+	float: left;
+	margin:20px 0 25px 0 ;
+}
+.projects h4{
+	font-size: 18px;
+	background: #cdc1c5;
+	color: #ffffff;
+	text-align: center;
+	position: absolute;
+	bottom: 20px;
+	padding: 15px;
+	width: 270px;
+	line-height: 30px;
+	margin-bottom: 0;
+}
+
+
+
+/*contact*/
+
+input[type=text]{
+	width: 100%;
+	height: 30px; 
+	border:1px solid #dddddd;
+
+}
+
+textarea[type=message]{
+	height: 200px;
+	width: 100%;
+	border-color: #dddddd;
+	
+}
+
+input[type=submit] {
+	background: #cdc1c5;
+	color:#ffffff;
+	font-size: 18px;
+	padding:10px 30px;
+	cursor: pointer;
+	border:none;
+
+
+}
